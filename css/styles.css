@@ -1,0 +1,48 @@
+.logo {
+    width: 100px; /* Set the width of the logo as needed */
+    height: auto; /* Maintain the aspect ratio */
+}
+nav {
+    background: linear-gradient(to right, #794276, #e34b4b);
+    padding: 2px 0;
+}
+nav ul {
+    display: flex; /* Make the list items display horizontally */
+    align-items: center; /* Center items vertically within the navigation bar */
+    justify-content: space-between;
+    margin: 0;
+    list-style: none;
+  }
+
+.title a {
+    font-size: 42px; 
+    font-weight: bold; 
+    color: #CCCCCC;
+    margin-right: 90px;
+    text-decoration: none;
+  }
+
+  .navbar a {
+    display: inline-block;
+    padding: 15px 30px; /* Adjust padding as needed */
+    background-color: #1a0018; /* Your desired background color */
+    color: #CCCCCC;
+    text-decoration: none;
+    font-size: 24px;
+    border-radius: 8px; /* Add rounded corners if desired */
+    /* Additional styling as needed */
+}
+
+.search {
+    display: flex;
+    align-items: center;
+  }
+
+.search-bar {
+    border: none;
+    background-color: #CCCCCC;
+    padding: 18px;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+  

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JustStream</title>
+    <meta name="Description" content="Movies rating" />
+    <link rel="icon" href="images/logo.png" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><img src="images/logo.png" alt="Logo" class="logo" /></li>
+          <li>
+            <p class="title"><a href="#home">JustStream</a></p>
+          </li>
+
+          <li class="navbar"><a href="#accueil">Accueil</a></li>
+          <li class="navbar"><a href="#categories">Categories</a></li>
+          <li class="search">
+            <input type="text" placeholder="Search" class="search-bar" />
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="showcase-content">
+      <div>
+        <h1 id="Best-movie-title">[Best-movie-title]</h1>
+        <h2 id="best-movie-description">[Best Movie Description]</h2>
+      </div>
+      <div>
+        <a
+          href="#more-info"
+          id="best-info-btn"
+          class="info-btn"
+          aria-label="open modal"
+          >More info</a
+        >
+      </div>
+      <div class="best-movie-img">
+        <img src="" alt="The best movie cover" />
+      </div>
+    </section>
+    <!-- The modal window -->
+    <!-- The modal window -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <!-- Add other data fields as needed -->
+        <div class="modal-cover-image">
+          <img src="" id="modal-img" alt="cover of movie" />
+        </div>
+
+        <!-- Add your content here -->
+        <div class="modal-info">
+          <header class="modal-header">
+            <h2 class="title" id="modal-title"></h2>
+          </header>
+
+          <div class="modal-data">
+            <!-- Year, Rating, and Duration -->
+            <div class="modal-info-center">
+              <p id="modal-year">""</p>
+              •<!-- Display the year here -->
+              <p id="modal-rating">""</p>
+              •<!-- Display the rating here -->
+              <p id="modal-duration">""</p>
+              <!-- Display the duration here -->
+            </div>
+
+            <!-- Genres -->
+            <div>
+              <strong>Genres: </strong>
+              <p id="modal-genres">""</p>
+              <!-- Display the genres here -->
+            </div>
+
+            <!-- IMDb Score -->
+            <div>
+              <strong>IMDB score: </strong>
+              <p id="modal-imdb">""</p>
+              <!-- Display the IMDb score here -->
+            </div>
+
+            <!-- Directors -->
+            <div>
+              <strong>Directed by: </strong>
+              <p id="modal-directors">""</p>
+              <!-- Display the directors here -->
+            </div>
+
+            <!-- Actors -->
+            <div>
+              <strong>The actors: </strong>
+              <p id="modal-cast">""</p>
+              <!-- Display the actors here -->
+            </div>
+
+            <!-- Countries -->
+            <div>
+              <strong>Countries: </strong>
+              <p id="modal-country">""</p>
+              <!-- Display the countries here -->
+            </div>
+
+            <!-- Box Office -->
+            <div>
+              <strong>Box office: </strong>
+              <p id="modal-box-office">""</p>
+              <!-- Display the box office here -->
+            </div>
+
+            <!-- Plot Summary -->
+            <div>
+              <strong>Plot summary: </strong>
+              <p id="modal-summary">""</p>
+              <!-- Display the plot summary here -->
+            </div>
+          </div>
+          <button id="close-modal-btn">Close</button>
+        </div>
+      </div>
+    </div>
+    <!-- Carousels -->
+    <div class="carousels"></div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer">
+        <!-- Social media icons -->
+        <div class="row">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <!-- Facebook icon -->
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <!-- Instagram icon -->
+          <a href="#"><i class="fa fa-youtube"></i></a>
+          <!-- YouTube icon -->
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <!-- Twitter icon -->
+        </div>
+
+        <!-- Navigation links -->
+        <div class="row">
+          <ul>
+            <li><a href="#">Contact us</a></li>
+            <!-- Contact us link -->
+            <li><a href="#">Our Services</a></li>
+            <!-- Our Services link -->
+            <li><a href="#">Privacy Policy</a></li>
+            <!-- Privacy Policy link -->
+            <li><a href="#">Terms & Conditions</a></li>
+            <!-- Terms & Conditions link -->
+            <li><a href="#">Career</a></li>
+            <!-- Career link -->
+          </ul>
+        </div>
+
+        <!-- Copyright -->
+        <div class="row">
+          INFERNO Copyright © 2023 Inferno - All rights reserved || Designed By:
+          ALHIJJIRI
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="/js/script.js"></script>
+</html>
