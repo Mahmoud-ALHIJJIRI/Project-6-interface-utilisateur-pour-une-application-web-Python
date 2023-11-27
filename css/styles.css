@@ -59,6 +59,8 @@ nav a {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 9999;
+  overflow: auto;
 }
 .modal-content {
   background: rgb(68, 69, 69);
