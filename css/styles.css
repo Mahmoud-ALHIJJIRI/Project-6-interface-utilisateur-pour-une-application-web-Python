@@ -10,46 +10,64 @@ li {
   box-sizing: border-box;
 }
 
-body {
-  font-family: 'Arial', sans-serif;
-  background-color: #f8f8f8;
-}
-
 /* Header */
 header {
   background: linear-gradient(to right, #794276, #e34b4b);
-  color: #fff;
   padding: 2px 0;
-}
-.logo {
-  width: 100px; /* Set the width of the logo as needed */
-  height: auto; /* Maintain the aspect ratio */
 }
 
-/* Navigation */
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: linear-gradient(to right, #794276, #e34b4b);
-  padding: 2px 0;
+.logo {
+  width: 120px; /* Set the width of the logo as needed */
+  height: auto; /* Maintain the aspect ratio */
+  margin-left: 50px;
 }
 
 nav ul {
   display: flex; /* Make the list items display horizontally */
-  align-items: center; /* Center items vertically within the navigation bar */
   justify-content: space-between;
-  margin: 0;
+  align-items: center; /* Center items vertically within the navigation bar */
   list-style: none;
+  background: linear-gradient(to right, #794276, #e34b4b);
+  padding: 2px 0;
 }
 
-nav li {
-  margin-right: 20px;
+nav li:last-child {
+  margin-right: 40px;
+}
+
+.search-bar {
+  margin-left: auto;
+  border-radius: 30px; /* Adjust the border-radius value for rounded corners */
+  overflow: hidden; /* Ensure that the rounded corners are applied */
+  width: 240px;
+  height: 40px;
 }
 
 nav a {
   text-decoration: none;
   color: #fff;
+  font-size: 30px;
+}
+
+#best-rated-movie-txt {
+  font-size: 40px;
+  font-weight: bold;
+  font-style: italic;
+  color: #794276;
+}
+
+#Best-movie-title {
+  font-size: 35px;
+  color: #0ab;
+}
+
+
+#best-info-btn {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 5px; 
+  background-color: #ffa600
 }
 
 /* Modal */
@@ -114,6 +132,7 @@ nav a {
   padding: 10px 20px;
   margin: 5px;
 }
+
 
 .btn-primary {
   background-color: #ffa600; /* Set primary button background color */
