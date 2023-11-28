@@ -10,12 +10,6 @@ li {
   box-sizing: border-box;
 }
 
-/* Header */
-header {
-  background: linear-gradient(to right, #794276, #e34b4b);
-  padding: 2px 0;
-}
-
 .logo {
   width: 120px; /* Set the width of the logo as needed */
   height: auto; /* Maintain the aspect ratio */
@@ -27,7 +21,7 @@ nav ul {
   justify-content: space-between;
   align-items: center; /* Center items vertically within the navigation bar */
   list-style: none;
-  background: linear-gradient(to right, #794276, #e34b4b);
+  background: #7a0202;
   padding: 2px 0;
 }
 
@@ -39,14 +33,19 @@ nav li:last-child {
   margin-left: auto;
   border-radius: 30px; /* Adjust the border-radius value for rounded corners */
   overflow: hidden; /* Ensure that the rounded corners are applied */
-  width: 240px;
+  width: 360px;
   height: 40px;
 }
 
 nav a {
   text-decoration: none;
-  color: #fff;
-  font-size: 30px;
+  color: #deece9;
+  font-size: 36px;
+  font-weight: bold;
+  display: inline-block;
+  background-color: #080808;
+  border-radius: 30px;
+  padding: 6px 10px;
 }
 
 #best-rated-movie-txt {
@@ -54,6 +53,7 @@ nav a {
   font-weight: bold;
   font-style: italic;
   color: #794276;
+  
 }
 
 #Best-movie-title {
@@ -64,7 +64,7 @@ nav a {
 
 #best-info-btn {
   display: inline-block;
-  border-radius: 5px;
+  border-radius: 100px;
   padding: 10px 20px;
   margin: 5px; 
   background-color: #ffa600
@@ -80,72 +80,63 @@ nav a {
   z-index: 9999;
   overflow: auto;
 }
+
 .modal-content {
   background: rgb(68, 69, 69);
   background: linear-gradient(90deg, rgb(68, 69, 69) 0%, rgb(18, 16, 16) 60%, rgb(68, 69, 69) 100%);
   margin: 6% auto;
   max-width: 1500px;
   width: 80%;
-  border-radius: 10px;
+  border-radius: 20px;
   min-height: 350px;
-  padding: 30px 30px 60px 30px;
+  padding: 30px 30px 30px 30px;
   display: flex;
 }
+
 .modal-content h2 {
   font-size: 24px;
   text-align: center;
 }
-.modal-content .modal-info-center {
-  text-align: center;
-  font-weight: bolder;
-}
+
 .modal-content .modal-cover-image img {
-  border-radius: 10px;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 100px;
   height: 340px;
   margin-left: 0; /* Reset margin */
   margin-top: 1%;
   width: auto; /* Adjusted width */
 }
+
 .modal-content .modal-info {
-  font-size: 15px;
+  font-size: 16px;
   margin-left: 30px;
   flex: 1; /* Take remaining space */
 }
+
 .modal-content p {
   display: inline;
   line-height: 150%;
-  text-align: center;
 }
+
 .modal-content strong {
   font-size: large;
   color: #caaa76;
   font-weight: bolder;
 }
+
 .modal-content p#modal-summary {
   font-style: italic;
+  font-size: 14px;
 }
 
-.btn-secondary, .btn-primary {
+.btn-primary {
   display: inline-block;
-  border-radius: 5px;
-  padding: 10px 20px;
-  margin: 5px;
+  padding: 8px 15px;
+  margin: 3px;
+  border-radius: 100px;
 }
-
 
 .btn-primary {
   background-color: #ffa600; /* Set primary button background color */
-}
-
-.btn-secondary {
-  background-color: rgb(229, 9, 20); /* Set secondary button background color */
-}
-
-.btn-primary:hover,
-.btn-secondary:hover {
-  background-color: #6a6565; /* Lighten the background color on hover */
-  /* Adjust the percentage value as desired for the hover effect */
 }
 
 #close-modal-btn {
@@ -153,24 +144,15 @@ nav a {
   cursor: pointer;
   margin: 10px auto 0px auto; /* Center horizontally */
   display: block; /* Make it a block element */
-  width: 150px; /* Set a fixed width if desired */
-  border-radius: 5px;
-  padding: 10px 20px;
-}
-#close-modal-btn:hover {
-  background-color: #6a6565; /* Lighten the background color on hover */
+  width: 100px; /* Set a fixed width if desired */
+  border-radius: 100px;
+  padding: 10px 15px;
 }
 
-.btn-nav .btn {
-  background-color: #e50914;
-  padding: 7px 20px;
-  list-style-type: none;
-  border-radius: 3px;
-  margin-right: 10px;
-  cursor: pointer;
-}
-.btn-nav .btn:hover {
+.btn-primary:hover,
+#close-modal-btn:hover {
   background-color: #6a6565; /* Lighten the background color on hover */
+  /* Adjust the percentage value as desired for the hover effect */
 }
 
 .carousel-4, .carousel-3, .carousel-2, .carousel-1 {
