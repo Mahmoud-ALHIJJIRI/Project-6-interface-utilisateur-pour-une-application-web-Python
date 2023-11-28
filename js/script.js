@@ -103,7 +103,7 @@ function openModal(id) {
     modal.style.display = 'block'; // Show the modal
 
     // Store the current scroll position
-    const scrollPosition = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+    const scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
 
     // Get the close buttons
     const closeButton = document.getElementById('close-modal-btn');
