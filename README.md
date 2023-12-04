@@ -2,7 +2,7 @@
 
 <!--suppress HtmlUnknownAnchorTarget -->
 <p align="center">
-  <img src="images/logo.jpg" alt="logo-JustStreamIt" style="filter: invert(13%) sepia(96%) saturate(4973%) hue-rotate(351deg) brightness(88%) contrast(106%);" />
+  <img src="images/logo.png" alt="logo-JustStreamIt" style="filter: invert(13%) sepia(96%) saturate(4973%) hue-rotate(351deg) brightness(88%) contrast(106%);" />
 </p>
 
 # About the project
